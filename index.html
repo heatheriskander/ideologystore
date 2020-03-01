@@ -8,12 +8,36 @@
     <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" />
     <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>the supermarket of ideology</h1>
+        <h1 class="title">the supermarket of ideology</h1>
     </header>
+
+    <article>
+        <canvas id="flagCanvas" width="600" height="400"></canvas>
+        <p class="ideology" id="ideologyLabel">trans-exclusionary eco-marxism</p>
+        <button type="button" class="regen" id="regen">give me another</button>
+    </article>
 </body>
+<script src="main.js"></script>
+<script>
+    document.getElementById("regen").onclick = generateIdeology;
+    var canvas = document.getElementById("flagCanvas");
+    var ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#eeeeee";
+    ctx.fillRect(0, 0, 600, 400);
+
+    ctx.fillStyle = "#212121";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.font = "bold 36px 'Comic Sans MS'"
+    ctx.fillText("flag goes here :)", 300, 200);
+
+    generateIdeology();
+</script>
 
 </html>

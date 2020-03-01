@@ -1,0 +1,39 @@
+html {
+    background-color: #212121;
+    color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+article {
+    text-align: center;
+}
+
+.ideology {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+}
+
+.regen {
+    background-color: #eeeeee;
+    border: none;
+    color: #212121;
+    margin: 5% auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 12px 24px;
+}
+
+.title {
+    font-family: Hack, monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 3em;
+    margin:  2.5% auto 5%;
+}
