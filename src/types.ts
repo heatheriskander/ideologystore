@@ -62,6 +62,7 @@ class Symbol {
     public static readonly SCALES = new Symbol("scales");
     public static readonly SNEK = new Symbol("snek");
     public static readonly DOVE = new Symbol("dove");
+    public static readonly STAR = new Symbol("star");
 }
 
 enum FlagType {
@@ -112,7 +113,7 @@ const prefixes = [
     new IdeologyPart("scientific"),
     new IdeologyPart("egalitarian"),
     new IdeologyPart("hegelian"),
-    new IdeologyPart("marxist", [Color.RED]),
+    new IdeologyPart("marxist", [Color.RED], [Symbol.STAR]),
     new IdeologyPart("primitive", [Color.DARKGREEN]),
     new IdeologyPart("liberal", [Color.YELLOW], [Symbol.DOVE]),
     new IdeologyPart("fascist", [], [Symbol.FASCES]),
@@ -124,8 +125,8 @@ const prefixes = [
 ];
 const heads = [
     new IdeologyPart("anarchism", [Color.BLACK]),
-    new IdeologyPart("communism", [Color.RED], [Symbol.HS_CN, Symbol.HS_USSR, Symbol.HS_CPUSA]),
-    new IdeologyPart("socialism", [Color.RED], [Symbol.HS_CN, Symbol.HS_USSR, Symbol.HS_CPUSA]),
+    new IdeologyPart("communism", [Color.RED], [Symbol.STAR, Symbol.HS_CN, Symbol.HS_USSR, Symbol.HS_CPUSA]),
+    new IdeologyPart("socialism", [Color.RED], [Symbol.STAR, Symbol.HS_CN, Symbol.HS_USSR, Symbol.HS_CPUSA]),
     new IdeologyPart("maoism", [Color.RED, Color.YELLOW], [Symbol.HS_CN]),
     new IdeologyPart("juche", [Color.RED, Color.YELLOW], [Symbol.JUCHE]),
     new IdeologyPart("marxism", [Color.RED]),
@@ -139,7 +140,7 @@ const heads = [
     new IdeologyPart("monarchism", [Color.PURPLE], [Symbol.CROWN]),
     new IdeologyPart("democracy", [Color.BLUE]),
     new IdeologyPart("liberalism", [Color.YELLOW], [Symbol.DOVE]),
-    new IdeologyPart("libertarianism", [Color.YELLOW]),
+    new IdeologyPart("libertarianism", [Color.YELLOW], [Symbol.SNEK]),
     new IdeologyPart("centrism", [Color.WHITE]),
     new IdeologyPart("primitivism", [Color.DARKGREEN]),
     new IdeologyPart("anarchism", [Color.BLACK]),
