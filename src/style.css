@@ -29,6 +29,13 @@ article {
     text-align: center;
 }
 
+a {
+    color: #0091ea;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .ideology {
     font-weight: bold;
     font-style: italic;
@@ -48,6 +55,18 @@ article {
     font-size: 1.5em;
     font-weight: bold;
     padding: 12px 24px;
+}
+
+.github-button {
+    background-color: #eeeeee;
+    border: none;
+    color: #212121;
+    border-radius: 4px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 4px 6px;
+    display: inline;
+    max-height: 36px;
 }
 
 .title {
