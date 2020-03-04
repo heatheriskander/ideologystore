@@ -4,4 +4,7 @@ Generates absurd niche ideologies in the style of quizzes like [8values](https:/
 ## Build
 Install dependencies with `npm-install` and build with `gulp`; outputs to `./dist/`.
 
+## Credits
+All flag symbols are original or based on public domain images.
+
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D51H5EL)
