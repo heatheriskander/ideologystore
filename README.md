@@ -1,4 +1,4 @@
-# [theideology.store](https://theideology.store)
+# [the supermarket of ideology](https://theideology.store)
 Generates absurd niche ideologies in the style of quizzes like [8values](https://8values.github.io).
 
 ## Build
