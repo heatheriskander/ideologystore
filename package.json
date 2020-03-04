@@ -2,7 +2,7 @@
   "name": "ideologystore",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/main.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,12 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "browserify": "^16.5.0",
-    "browserify-css": "^0.15.0",
     "gulp": "^4.0.0",
     "gulp-css": "^0.1.0",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
     "tsify": "^4.0.1",
     "typescript": "^3.8.3",
+    "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   }
 }

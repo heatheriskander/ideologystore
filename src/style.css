@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "Hack";
+    src: url("./fonts/Hack-BoldItalic.woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Bold.woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-BoldItalic.woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
 html {
     background-color: #212121;
     color: #eeeeee;
@@ -19,7 +40,7 @@ article {
     background-color: #eeeeee;
     border: none;
     color: #212121;
-    margin: 5% auto;
+    margin: 5% auto 2% auto;
     display: block;
     text-decoration: none;
     text-align: center;
@@ -35,5 +56,15 @@ article {
     font-style: italic;
     text-align: center;
     font-size: 3em;
-    margin:  2.5% auto 5%;
+    margin: 2.5% auto 5%;
+}
+
+footer {
+    margin: 0 5% auto 5%;
+}
+
+a,
+u {
+    text-decoration: none;
+    font-weight: bold;
 }
